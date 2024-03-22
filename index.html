@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Image Gallery</h1>
+      <div class="gallery">
+        <div class="gallery-item" data-index="1">
+          <img src="./assets/car1.jpg" alt="Image 1" data-description="This is a Buggati in front of the Castle !!!"/>
+        </div>
+        <div class="gallery-item" data-index="2">
+          <img src="./assets/car2.jpeg" alt="Image 2" data-description="That's a nice car !!!"/>
+        </div>
+        <div class="gallery-item" data-index="3">
+          <img src="./assets/car3.webp" alt="Image 3" data-description="Its a Dark-grey Rolls Royce !!!"/>
+        </div>
+        <div class="gallery-item" data-index="3">
+          <img src="./assets/car4.jpg" alt="Image 3" data-description="There are so many expensive cars !!!"/>
+        </div>
+      </div>
+    </div>
+
+    <div class="lightbox">
+      <span class="close">&times;</span>
+      <img class="lightbox-image" src="" alt="Lightbox Image" />
+      <div class="navigation">
+        <span class="prev">&#10094;</span>
+        <span class="next">&#10095;</span>
+      </div>
+      <div class="description"></div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
